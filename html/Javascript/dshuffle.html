@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Darksouls Shuffle.</title>
+
+    <style>
+        
+        body {
+        }
+        html {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+            border: 0px;
+        }
+        #pics {
+            width: 900px;
+            height: 900px;
+            border: solid 1px black;
+            font-size: 0px;
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="pics">
+<img src = "img/ds1.jpg">
+<img src = "img/ds2.jpg">
+<img src = "img/ds3.jpg">
+<img src = "img/ds4.jpg">
+<img src = "img/ds5.jpg">
+<img src = "img/ds6.jpg">
+<img src = "img/ds7.jpg">
+<img src = "img/ds8.jpg">
+<img src = "img/ds9.jpg">
+</div>
+
+<script src="dsjava.js"></script>
+
+<script>
+    var plaatjes = document.getElementsByTagName("img");
+    var random = 0;
+    for(var i = 0; i < plaatjes.length; i++) {
+        random = (Math.floor(Math.random() * 9) + 1);
+        plaatjes[i].src = "img/ds" + random + ".jpg";
+    }
+
+
+
+</script>
+</body>
+</html>

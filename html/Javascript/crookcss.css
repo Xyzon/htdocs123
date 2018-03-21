@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    background-color: #aaaaaa;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#slideholder {
+    height: 238px;
+    width: 608px;
+    border: 1px red solid;
+}
+
+#slideholdera {
+    height: 238px;
+    width: 608px;
+    border: 1px red solid;
+}
+#slideholderb {
+    height: 238px;
+    width: 608px;
+    border: 1px red solid;
+}
+
