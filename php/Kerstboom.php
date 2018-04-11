@@ -1,16 +1,31 @@
-<center>
 <?php
-// PHP Opdracht door:
-// Joey Clazing
+
+?>
 
 
-$regel = 10;
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Php Opdrachten2</title>
+</head>
+<body>
 
-for($i = 1; $i <= $regel; $i++) {
-    for($j = 0; $j < $i ;$j++) {
-        echo "*"; 
+<style>
+
+    body {
+        text-align:center;
     }
-    echo "<br>";
+
+</style>
+<?php
+
+
+for($i = 0; $i <=90; $i++) {
+    for($j = 0; $j < $i; $j++){
+        echo "*";
+    }
+    echo "*<br>";
+
 }
 
 
@@ -18,6 +33,8 @@ for($i = 1; $i <= $regel; $i++) {
 
 
 
-
-
 ?>
+</body>
+
+</html>
+
