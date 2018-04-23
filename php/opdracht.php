@@ -15,6 +15,14 @@
 
 <?php
 
+doorelkaar();
+
+function doorelkaar(){
+    $zin = "joey houd van groot";
+    $shuffle = str_shuffle($zin);
+
+    echo $shuffle;
+}
 
 ?>
 

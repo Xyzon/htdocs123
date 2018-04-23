@@ -18,10 +18,19 @@
 $i = 15;
 
 if ($i % 3 == 0 ) {
-    echo "deelbaar";
-} else echo "niet deelbaar";
+    echo "True";
+} else echo "False";
 
-echo "   $i"
+echo "   $i";
+
+doorelkaar();
+
+function doorelkaar(){
+    $zin = "joey houd van groot";
+    $shuffle = str_shuffle($zin);
+
+    echo $shuffle;
+}
 
 ?>
 
