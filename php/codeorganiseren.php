@@ -21,10 +21,7 @@
     geefArrayWeerAlsLijst($sporten);
     geefArrayWeerAlsLijst($dieren);
 
-
-
     function geefArrayWeerAlsLijst($arr) {
-
         foreach($arr as $arr_element) {
             echo "<li>".$arr_element."</li>";
 

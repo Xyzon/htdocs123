@@ -15,6 +15,13 @@
 
 <?php
 
+$i = 15;
+
+if ($i % 3 == 0 ) {
+    echo "deelbaar";
+} else echo "niet deelbaar";
+
+echo "   $i"
 
 ?>
 
