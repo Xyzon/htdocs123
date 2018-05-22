@@ -1,4 +1,5 @@
 <?php
+$dbh = new PDO('mysql:host=localhost;dbname=chatPHP;port=3306' , 'root' , 'root');
 ?>
 
 
