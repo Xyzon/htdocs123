@@ -1,0 +1,12 @@
+.jumbotron {
+    background-image: url(chl/wall.jpg);
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+body {
+    background-image: url(chl/wall2.jpg);
+}
