@@ -27,6 +27,7 @@
         <ul class="nav navbar-nav">
             <li><a href="../index.php">Home</a></li>
             <li><a href="../playlist.php">Playlists</a></li>
+            <li><a href="login.php">login</a></li>
         </ul>
     </div>
 </nav>

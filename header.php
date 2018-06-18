@@ -13,7 +13,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Bruno Mars</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="challenge/css.css">
 
 </head>
 <body>
@@ -25,7 +25,7 @@
         </div>
         <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="playlists.html">Playlists</a></li>
+            <li><a href="challenge/playlist.php">Playlists</a></li>
         </ul>
     </div>
 </nav>
